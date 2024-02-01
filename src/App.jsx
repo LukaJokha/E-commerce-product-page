@@ -1,12 +1,15 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react';
+import Header from './container/Header';
+import MainContent from './container/MainContent';
+import SliderLightbox from './container/SliderLightbox';
+import './App.css';
 
-function App() {
-  return (
-    <>
-      
-    </>
-  )
-}
+const App = () => (
+  <div>
+    <Header />
+    <MainContent />
+    <SliderLightbox />
+  </div>
+);
 
-export default App
+export default App;
