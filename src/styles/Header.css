@@ -1,0 +1,42 @@
+.header-container {
+  height: 80px; 
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid hsla(26, 13%, 65%, 0.444);
+}
+
+.logo-container {
+  margin-right: 10px;
+}
+
+.nav-links span {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.user-actions svg {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.profile-picture:hover{
+  border: 3px solid hsl(26, 100%, 55%);
+  cursor: pointer;
+}
+
+.shopping-cart {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}

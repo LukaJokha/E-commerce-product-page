@@ -1,14 +1,13 @@
 import React from 'react';
 import Header from './container/Header';
 import MainContent from './container/MainContent';
-import SliderLightbox from './container/SliderLightbox';
+// import SliderLightbox from './container/SliderLightbox';
 import './App.css';
 
 const App = () => (
-  <div>
+  <div className='everything'>
     <Header />
     <MainContent />
-    <SliderLightbox />
   </div>
 );
 
